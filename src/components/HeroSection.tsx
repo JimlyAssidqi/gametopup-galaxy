@@ -15,24 +15,24 @@ const HeroSection: React.FC = () => {
         {/* Text Content */}
         <div className="w-full md:w-1/2 space-y-6 text-center md:text-left">
           <div className="inline-block px-4 py-1 rounded-full bg-white/5 border border-white/10 text-sm animate-fade-in">
-            <span className="text-neon-blue">New</span> &middot; Instant top-up for all your favorite games
+            <span className="text-neon-blue">Baru</span> &middot; Top up instan untuk semua game favorit Anda
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-fade-in" style={{ animationDelay: '0.1s' }}>
-            Level Up Your <span className="text-gradient">Gaming Experience</span>
+            Tingkatkan <span className="text-gradient">Pengalaman Gaming</span> Anda
           </h1>
           
           <p className="text-lg text-muted-foreground max-w-xl animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            Fast, secure, and reliable game top-up service with the best rates. 
-            Top up your favorite games in seconds and get back to what matters - playing!
+            Layanan top-up game yang cepat, aman, dan terpercaya dengan tarif terbaik.
+            Top up game favorit Anda dalam hitungan detik dan kembali ke yang terpenting - bermain!
           </p>
           
           <div className="flex flex-col sm:flex-row items-center gap-4 pt-4 animate-fade-in" style={{ animationDelay: '0.3s' }}>
             <Link to="/top-up" className="neon-button w-full sm:w-auto flex items-center justify-center">
-              Start Top Up <ArrowRight size={18} className="ml-2" />
+              Mulai Top Up <ArrowRight size={18} className="ml-2" />
             </Link>
             <a href="#featured-games" className="px-6 py-3 w-full sm:w-auto flex items-center justify-center text-white bg-white/5 hover:bg-white/10 border border-white/10 rounded-lg transition-colors">
-              Explore Games
+              Jelajahi Game
             </a>
           </div>
           
@@ -41,7 +41,7 @@ const HeroSection: React.FC = () => {
               <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-neon-blue">
                 <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="currentColor"/>
               </svg>
-              <span className="text-sm">5-star rated service</span>
+              <span className="text-sm">Layanan bintang 5</span>
             </div>
             <div className="flex items-center gap-2">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-neon-purple">
@@ -49,13 +49,13 @@ const HeroSection: React.FC = () => {
                 <path d="M2 12a4 4 0 0 1 3.7-4"></path>
                 <circle cx="12" cy="12" r="10"></circle>
               </svg>
-              <span className="text-sm">24/7 Live Support</span>
+              <span className="text-sm">Dukungan 24/7</span>
             </div>
             <div className="flex items-center gap-2">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-neon-blue">
                 <polyline points="20 6 9 17 4 12"></polyline>
               </svg>
-              <span className="text-sm">Instant Delivery</span>
+              <span className="text-sm">Pengiriman Instan</span>
             </div>
           </div>
         </div>
@@ -67,14 +67,14 @@ const HeroSection: React.FC = () => {
             <div className="relative glass-card rounded-2xl overflow-hidden p-4 border-2 border-white/10">
               <img 
                 src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
-                alt="Gaming Experience" 
+                alt="Pengalaman Gaming" 
                 className="w-full h-auto rounded-lg object-cover"
                 style={{ width: '500px', maxWidth: '100%' }}
               />
               <div className="absolute bottom-8 left-8 right-8 glass-card p-4 rounded-lg">
                 <div className="flex items-center justify-between">
                   <div>
-                    <h3 className="text-white font-semibold">Popular Right Now</h3>
+                    <h3 className="text-white font-semibold">Populer Saat Ini</h3>
                     <p className="text-sm text-white/70">Mobile Legends</p>
                   </div>
                   <div className="bg-gradient-to-r from-neon-blue to-neon-purple p-3 rounded-lg shadow-neon-blue">

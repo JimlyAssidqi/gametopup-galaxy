@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
               to="/" 
               className={`text-sm transition-colors ${location.pathname === '/' ? 'text-white' : 'text-muted-foreground hover:text-white'}`}
             >
-              Home
+              Beranda
             </Link>
             <Link 
               to="/top-up" 
@@ -77,7 +77,7 @@ const Navbar: React.FC = () => {
               to="/top-up" 
               className="neon-button py-2 px-4 text-sm"
             >
-              Start Top Up
+              Mulai Top Up
             </Link>
           </div>
 
@@ -101,7 +101,7 @@ const Navbar: React.FC = () => {
                 to="/" 
                 className={`text-sm py-2 transition-colors ${location.pathname === '/' ? 'text-white' : 'text-muted-foreground hover:text-white'}`}
               >
-                Home
+                Beranda
               </Link>
               <Link 
                 to="/top-up" 
@@ -128,7 +128,7 @@ const Navbar: React.FC = () => {
                   to="/top-up" 
                   className="neon-button py-2 px-4 text-sm"
                 >
-                  Start Top Up
+                  Mulai Top Up
                 </Link>
               </div>
             </div>

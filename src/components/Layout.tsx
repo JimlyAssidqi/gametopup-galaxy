@@ -18,23 +18,23 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div>
             <h3 className="text-xl font-semibold mb-4">GameTopup Galaxy</h3>
             <p className="text-muted-foreground">
-              The fastest and most reliable game top-up service.
-              Get your game credits instantly at the best prices.
+              Layanan top-up game tercepat dan paling terpercaya.
+              Dapatkan kredit game secara instan dengan harga terbaik.
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-xl font-semibold mb-4">Tautan Cepat</h3>
             <ul className="space-y-2">
-              <li><a href="/" className="text-muted-foreground hover:text-foreground transition-colors">Home</a></li>
+              <li><a href="/" className="text-muted-foreground hover:text-foreground transition-colors">Beranda</a></li>
               <li><a href="/top-up" className="text-muted-foreground hover:text-foreground transition-colors">Top Up</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Support</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Bantuan</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">FAQ</a></li>
             </ul>
           </div>
           <div>
-            <h3 className="text-xl font-semibold mb-4">Contact</h3>
+            <h3 className="text-xl font-semibold mb-4">Kontak</h3>
             <p className="text-muted-foreground mb-2">support@gametopupgalaxy.com</p>
-            <p className="text-muted-foreground">+1 (555) 123-4567</p>
+            <p className="text-muted-foreground">+62 812 3456 7890</p>
             <div className="flex space-x-4 mt-4">
               <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                 <span className="sr-only">Twitter</span>
@@ -52,7 +52,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           </div>
         </div>
         <div className="max-w-7xl mx-auto mt-10 pt-5 border-t border-white/10 text-center text-muted-foreground">
-          <p>© {new Date().getFullYear()} GameTopup Galaxy. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} GameTopup Galaxy. Hak Cipta Dilindungi.</p>
         </div>
       </footer>
     </div>

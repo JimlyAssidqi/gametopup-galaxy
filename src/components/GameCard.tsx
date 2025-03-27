@@ -49,7 +49,7 @@ const GameCard: React.FC<GameCardProps> = ({ id, name, imageUrl, category, popul
         
         {/* Call to action button */}
         <div className="p-4 flex justify-between items-center bg-black/40">
-          <span className="text-white text-sm">Top Up Now</span>
+          <span className="text-white text-sm">Top Up Sekarang</span>
           <span className="w-6 h-6 rounded-full bg-gradient-to-r from-neon-blue to-neon-purple flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
               <path d="M5 12h14"/>

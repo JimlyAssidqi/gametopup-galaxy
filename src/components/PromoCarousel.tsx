@@ -6,22 +6,22 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const promoData = [
   {
     id: 1,
-    title: "50% Bonus on First Top-Up",
-    description: "Get 50% extra credits on your first transaction!",
+    title: "Bonus 50% untuk Top-Up Pertama",
+    description: "Dapatkan kredit tambahan 50% pada transaksi pertama Anda!",
     background: "bg-gradient-to-r from-neon-blue to-neon-purple",
     imageUrl: "https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
   },
   {
     id: 2,
-    title: "Weekend Special: 20% Off",
-    description: "Every weekend, enjoy special discounts on all games!",
+    title: "Spesial Akhir Pekan: Diskon 20%",
+    description: "Setiap akhir pekan, nikmati diskon spesial untuk semua game!",
     background: "bg-gradient-to-r from-neon-purple to-neon-pink",
     imageUrl: "https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
   },
   {
     id: 3,
-    title: "Special Bundle Deals",
-    description: "Purchase bundles and save up to 30% on your favorite games!",
+    title: "Paket Bundel Spesial",
+    description: "Beli paket bundel dan hemat hingga 30% untuk game favorit Anda!",
     background: "bg-gradient-to-r from-neon-pink to-neon-blue",
     imageUrl: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
   }
@@ -80,7 +80,7 @@ const PromoCarousel: React.FC = () => {
     <section className="py-16 px-6 md:px-10">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-neon-blue to-neon-purple bg-clip-text text-transparent inline-block">
-          Special Promotions
+          Promosi Spesial
         </h2>
         
         <div 
@@ -108,7 +108,7 @@ const PromoCarousel: React.FC = () => {
                     <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">{promo.title}</h3>
                     <p className="text-white/90 text-sm md:text-base mb-4">{promo.description}</p>
                     <button className="bg-white text-black font-medium py-2 px-6 rounded-lg hover:bg-white/90 transition-colors">
-                      Claim Now
+                      Klaim Sekarang
                     </button>
                   </div>
                 </div>

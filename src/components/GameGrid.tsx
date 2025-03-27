@@ -65,7 +65,7 @@ const gamesData = [
 
 // Category filter options
 const categories = [
-  "All",
+  "Semua",
   "MOBA",
   "Battle Royale",
   "RPG",
@@ -74,11 +74,11 @@ const categories = [
 ];
 
 const GameGrid: React.FC = () => {
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState("Semua");
   const [showFilter, setShowFilter] = useState(false);
   
   // Filter games by category
-  const filteredGames = selectedCategory === "All" 
+  const filteredGames = selectedCategory === "Semua" 
     ? gamesData 
     : gamesData.filter(game => game.category === selectedCategory);
   
@@ -87,7 +87,7 @@ const GameGrid: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
           <h2 className="text-3xl font-bold bg-gradient-to-r from-neon-blue to-neon-purple bg-clip-text text-transparent">
-            Popular Games
+            Game Populer
           </h2>
           
           {/* Category filter (mobile) */}
@@ -155,7 +155,7 @@ const GameGrid: React.FC = () => {
         {/* View all button */}
         <div className="mt-10 text-center">
           <button className="neon-button">
-            View All Games
+            Lihat Semua Game
           </button>
         </div>
       </div>
